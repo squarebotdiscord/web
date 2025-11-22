@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f0f1a;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.buttons {
+  margin: 40px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin: 15px;
+  padding: 20px 40px;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.invite {
+  background: #5865F2; /* Discord blurple */
+  color: #fff;
+}
+
+.commands {
+  background: #2ecc71; /* Green */
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #888;
+}
